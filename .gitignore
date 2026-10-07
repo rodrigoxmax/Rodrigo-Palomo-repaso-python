@@ -5,6 +5,16 @@ __pycache__/
 
 # C extensions
 *.so
+#Entorno virtual
+
+.venv_practica_ut1/
+.venv/
+
+#Configuraciones del editor 
+
+.vscode/
+.idea/
+
 
 # Distribution / packaging
 .Python
