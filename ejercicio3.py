@@ -5,6 +5,7 @@ def calcular(longitudes_str):
         cadena=longitudes_str.split("x")
         if len(cadena)!=3:
             raise TypeError("Error: tiene que haber por lomnos 3 argumentos")
+            return None
 
     
         alto=float(cadena[0])
@@ -13,6 +14,7 @@ def calcular(longitudes_str):
 
         if alto<=0 or ancho<=0 or largo<=0:
          raise ValueError("Error: tipo de dato invalido ")
+            return None  
         resultado=alto*ancho*largo
 
         return round(resultado,2)
