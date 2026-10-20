@@ -32,5 +32,5 @@ with open("auditoria_envios.csv","r") as a:
 costexkg=coste2/kgtotal 
 
 print (f"Cantidad de envios leidos: {envios}")
-print (f"peso global de los paquetes: {kgtotal}")
-print (f"elcoste total porkilogramo es de : {costexkg}")
+print (f"peso global de los paquetes: {kgtotal:.2f}")
+print (f"elcoste total porkilogramo es de : {costexkg:.2f}")
